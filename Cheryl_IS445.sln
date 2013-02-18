@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Cheryl_IS445", ".", "{EC9B9BBF-38BD-4C16-885C-0FCBCCCD954A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Cheryl_IS445"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\Cheryl_IS445\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Cheryl_IS445\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Cheryl_IS445"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\Cheryl_IS445\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Cheryl_IS445\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5477"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC9B9BBF-38BD-4C16-885C-0FCBCCCD954A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9B9BBF-38BD-4C16-885C-0FCBCCCD954A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
