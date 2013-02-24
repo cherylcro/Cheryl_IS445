@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+    <head>
+    <style type="text/css">
+        .auto-style3 {
+            color: #006699;
+            input: focus;
+        
+        {
+        background-color=yellow;
+        }
+    </style>
+   <header>
+       <hr style="height:10px; color: #003366;" 
+      <nav><a href="index.html">Home</a>     <a href="webform.html">Web Form Demo</a>      <a href="myinfo.html">About Me</a></nav> 
+   </header>
+</head>
+<body style="background-color: #FFCC99">
+    
+    <h1 class="auto-style3">Welcome to my web form</h1>
+    <h2 class="auto-style3">A demo form for hotel reservations</h2>
+
+
+    <form>
+        <fieldset>
+            <legend> Customer Information</legend>
+               <label for="Full Name:">Full name</label>
+                <input type="text" name="fullName" id="fullName" value="First name Last name" style="width: 200px" /><br />
+               <label for="E-mail address"> E-mail address:</label>
+               <input type="email" name="email" id="email" style ="width: 208px" /><br/>
+               <label for="Phone">Phone:</label> 
+               <input type="tel" name="phone" id="phone" />
+              
+              
+                        
+        </fieldset>
+        <fieldset cellpadding="4">
+           <legend>Room Information</legend>
+              Arrival date:  <input type="date" /> <br />
+               Arrival time:  <input type="time" /><br />
+               Select a room type:  <select required>
+                   <option value="Luxury">Luxury</option>
+                   <option value="Standard">Standard</option>
+                   <option value="Economy">Economy</option>
+                   </select><br />
+
+
+
+              Number of nights (valid number is from 1 to 30): <input type="number" name="nights" min="1" max="30" required style="width: 38px" /><br />
+
+              Number of guests (the mazimum guests is 3): <input type="number" name="guests" min="0" max="3" required style="width: 38px" /><br />
+         </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+               Promo code: <input type="text" name="promocode" maxlength="4" style="width: 54px" /><br />
+                <br />
+               Special notes: <textarea rows="5" cols="40" name="S1"> Enter your special notes here</textarea>
+
+          </fieldset>
+        <input type="reset" name="reset" value="Clear Form" />
+        <input type="submit" name="submit" value="Request Reservation" />
+    </form>
+
+
+</body>
+    <footer>
+    <address> Contact Information:<br />
+        <a href="mailto:cheryl.croshaw@student.csulb.edu"> Email: cheryl.croshaw@student.csulb.edu</a><br />
+        Phone:  (562) 900-9466
+    </address>
+</footer>
+</html>
