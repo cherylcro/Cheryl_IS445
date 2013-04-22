@@ -1,0 +1,140 @@
+﻿body 
+{
+    background-color:#FFCC99; 
+    width:850px; 
+    margin:auto;
+    height: 393px;
+    
+}
+p.singleline {
+    border-top: solid;
+    border-width: 8px;
+    border-top-color: #f3230e;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #006699;
+    font-size: x-large;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #f3230e;
+    font-size: large;
+}
+hr {
+    height:8px;
+    color:#f3230e;
+    }
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li.nav {
+   float:left;
+  }
+a:link, a:visited {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:250px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #003366;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color:#006699;
+    text-transform:uppercase;
+    color:#f3230e
+}
+h3 {
+    text-align: center;
+    text-decoration: none;
+    color: #006699;
+    font-size:x-large;
+    font-weight:bold;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+    color: #f3230e;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    z-index: 1;
+    left: 10px;
+    top: 212px;
+   
+}
+a.email {
+    display: inline;
+    background-color: #FFCC99;
+    font-style: italic;
+    text-align: center;
+    color: #f3120b;
+    text-transform: none;
+}
+address {
+    border-top: double;
+    padding-top: 5px;
+    border-top-color: #f3230e;
+    text-align:center;
+    margin-right:20px;
+    color:#f3230e;
+    font-style:normal; 
+   }
+form {
+    border: solid;
+    border-color: #006699;
+    padding: 10px;
+}
+fieldset {
+    padding: 3px;
+}
+img.beachgirl { 
+    float:right;
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    color: #f3230e;
+    width:200px;
+    height:200px;
+    padding: 2px;
+    z-index: 1;
+    left: 10px;
+    top: 212px;
+}
+ul.myinfo {
+    display:block;
+    width:380px;
+    list-style-type: disc;
+    text-wrap:normal;
+}
+ol.a {
+    display:block;
+    width:380px;
+    list-style-type:decimal;
+   }
+
+.left {
+    text-align: left;
+}
+
+   
+   
+
+
+
+

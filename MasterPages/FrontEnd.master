@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" CodeFile="FrontEnd.master.vb" Inherits="MasterPages_FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="PageWrapper">
+            <header><h1>Croshaw, Cheryl Homework 7</h1></header>
+            <nav>  <p class="singleline"</p>
+
+          <ul class="nav">
+         <li class="nav"><a href="index.html">Home</a></li>
+         <li class="nav"> <a href="webform.html">Web Form Demo</a></li>          
+         <li class="nav"> <a href="myinfo.html">About Me</a></li>  
+         </ul></nav>
+            <section id="MainContent">
+                <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </section>
+                
+            <footer> <address class="address">
+           <label>Cheryl Croshaw&#169 </label> 
+           <a class="email" href="mailto:cheryl.croshaw@student.csulb.edu"> e-mail: cheryl.croshaw@csulb.edu</a>
+           <label> Phone:  (562) 900-9466</label>  
+                </address>  
+
+            </footer>
+         </div>
+    </form>
+    
+</body>
+</html>
